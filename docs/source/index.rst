@@ -25,15 +25,10 @@ algorithms and state-of-the-art deep learning method
 Object Tracking
 -------------------
 
-This is the first part of the long journey of computer vision. This part of the
-document covers basic computer vision concepts and quite good enough examples
-using machine learning algorithms.
-Each part of the document is consistent and remarkably well structured,
-begins with background knowledge and some valuable concepts,
-followed by practial code examples. Then focuses on Frequently Asked Questions.
+Object tracking is the task of taking an initial set of object detections, creating a unique ID for each of the initial detections, and then tracking each of the objects as they move around frames in a video, maintaining the ID assignment.
 
 
 .. toctree::
    :maxdepth: 2
 
-   object_tracking/main
+   object_tracking/color

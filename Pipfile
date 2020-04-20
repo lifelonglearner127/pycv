@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 sphinx = "*"
+opencv-python = "*"
+flake8 = "*"
+imutils = "*"
 
 [requires]
 python_version = "3.8"
