@@ -15,6 +15,8 @@ algorithms and state-of-the-art deep learning method
 
 - Object Tracking
 - Object Detection
+- Face Detection
+- Face Recognition
 
 
 .. toctree::
@@ -32,3 +34,4 @@ Object tracking is the task of taking an initial set of object detections, creat
    :maxdepth: 2
 
    object_tracking/color
+   object_tracking/opencv

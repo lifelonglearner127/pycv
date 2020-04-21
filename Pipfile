@@ -12,6 +12,7 @@ flake8 = "*"
 imutils = "*"
 scikit-learn = "*"
 pycv = {editable = true,path = "."}
+opencv-contrib-python = "*"
 
 [requires]
 python_version = "3.8"
