@@ -10,6 +10,8 @@ sphinx = "*"
 opencv-python = "*"
 flake8 = "*"
 imutils = "*"
+scikit-learn = "*"
+pycv = {editable = true,path = "."}
 
 [requires]
 python_version = "3.8"
