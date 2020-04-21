@@ -13,6 +13,7 @@ imutils = "*"
 scikit-learn = "*"
 pycv = {editable = true,path = "."}
 opencv-contrib-python = "*"
+dlib = "*"
 
 [requires]
 python_version = "3.8"

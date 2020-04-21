@@ -2,6 +2,14 @@ import numpy as np
 from scipy.spatial import distance as dist
 
 
+class TrackableObject:
+
+    def __init__(self, object_id, centroid):
+        self.object_id = object_id
+        self.centroids = [centroid]
+        self.counted = False
+
+
 class CentroidTracker:
 
     def __init__(self, max_disappeared=50):

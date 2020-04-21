@@ -35,3 +35,4 @@ Object tracking is the task of taking an initial set of object detections, creat
 
    object_tracking/color
    object_tracking/opencv
+   object_tracking/dlib
