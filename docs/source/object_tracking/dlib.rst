@@ -17,8 +17,10 @@ Single Object Tracking
 Multiple Object Tracking
 ------------------------
 
-    python player_detect.py --video videos/match.mp4
-
+    python multiple_track_object_nmp.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/race.mp4 --label person
+    
 
 Fast Multiple Object Tracking
 -----------------------------
+
+    python multiple_track_object.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/race.mp4 --label person
