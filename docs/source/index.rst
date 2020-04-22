@@ -10,7 +10,7 @@ PyCV: Python for Computer Vision
 
 -----------
 
-**PyCV** consists of various projects based on traditional computer vision
+**pycv** consists of various projects based on traditional computer vision
 algorithms and state-of-the-art deep learning method
 
 - Object Tracking
@@ -24,8 +24,20 @@ algorithms and state-of-the-art deep learning method
    :caption: Contents:
 
 
+Installation Guide
+------------------
+
+This part of the documentation covers step-by-step instructions for letting **pycv** run on your local machine.
+
+
+.. toctree::
+   :maxdepth: 2
+
+   installation/python
+
+
 Object Tracking
--------------------
+---------------
 
 Object tracking is the task of taking an initial set of object detections, creating a unique ID for each of the initial detections, and then tracking each of the objects as they move around frames in a video, maintaining the ID assignment.
 
