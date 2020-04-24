@@ -48,3 +48,15 @@ Object tracking is the task of taking an initial set of object detections, creat
    object_tracking/color
    object_tracking/opencv
    object_tracking/dlib
+
+
+Face Detection
+--------------
+
+Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects).
+
+
+.. toctree::
+   :maxdepth: 2
+
+   face_detection/opencv_dlib
