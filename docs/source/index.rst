@@ -60,3 +60,5 @@ Face detection is the task of detecting faces in a photo or video (and distingui
    :maxdepth: 2
 
    face_detection/opencv_dlib
+   face_detection/javascript
+
